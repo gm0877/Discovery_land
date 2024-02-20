@@ -1,0 +1,363 @@
+*{
+    margin: 0;
+    padding: 0; 
+    box-sizing: border-box;
+   
+}
+
+.hero{
+    width: 100%;
+    height: 100vh;
+    background-image:linear-gradient(rgba(12,3,51,0.3),rgba(12,3,51,0.3)) ;
+    position: relative;
+    padding: 0 5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+nav{
+    width:100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 20px 8%;
+    display: flex;
+    align-items: center;
+    justify-content:space-between ;
+}
+nav .logo{
+    display: flex;
+    flex-direction: column;
+    width: 230px;
+    height: 7.5vh;
+}
+
+nav ul li{
+    list-style: none;
+    display: inline-block; 
+     margin-left: 40px; 
+  
+
+}
+nav ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-size:17px ;
+
+}
+.content{
+    text-align:center;
+}
+.content h5{
+    font-size: 60px;
+    color:#fff;
+    font-weight:100;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-style:unset;
+}
+.content a{
+    text-decoration: none;
+    display: inline-block;
+    color: #fff;
+    font-size: 24px;
+    border:2px solid #fff;
+    padding: 14px 70px;
+    border-radius: 50px;
+    margin-top: 20px;
+}
+.back-video{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+
+
+}
+
+.secondpage{
+    
+   background-image: url("../assets/mountain.jpg");
+   
+    /* width: 100%; */
+    background-size: cover;
+    width: 200vh;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    margin-left: 60px;
+    
+    margin-top: 3%;
+    
+
+    
+    
+} 
+#mountainhills{
+
+    display: flex ;
+    flex-direction: row;
+    justify-content: flex-end;
+    margin-top: 3%;
+    margin-left: 190px;
+    padding-right: 0px;
+    height: 93vh;
+    width: 36%;
+}
+#Welcometext{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    
+    justify-content: center;
+    font-size: 40px;
+    color:black;
+    font-weight: lighter;
+
+
+} 
+
+#text2ndpage{
+
+    margin-top: 45px;
+   
+    font-family:'Times New Roman', Times, serif;
+ color:grey;
+  
+    justify-content: start;
+    margin-left: 6%;
+    align-items: center;
+    
+}
+#sunrise{
+    margin-top: 300px;
+    height: 50%;
+}
+
+#one3rdpage{
+    
+    margin-top:300px;
+    display: flex;
+    font-family:'Times New Roman', Times, serif;
+    font-weight:30px;
+    padding-left: 110px;
+    margin-bottom: 30px;
+}
+.explore{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    
+    font-weight: lighter;
+    font-size: 50px;
+    padding-left: 160px;
+
+}
+
+.left_line{
+    margin-bottom: 30px;
+    padding-left: 60%;
+    
+    font-size: 40px;
+   
+  
+}
+/* .earth{
+    width: 60%;
+    height:60%;
+    padding-right: 0%;
+    
+    
+}
+#divearth{
+    padding-right: 100px;
+} */
+.earthdiv{
+    border: 2px solid red;
+    display: flex;
+
+    
+
+}
+/* .blackimage{
+    border: 3px solid blue;
+    left: 1000px;
+    height: 30vh;
+    width: 30vw;
+    margin-left: 65%;
+    display: block;
+    
+} */
+
+.lord h2 {
+    margin-left: 125px;
+    margin-top: 125px;
+}
+.lord h3 {
+    margin-left: 125px;
+}
+.lord h2 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.lord p{
+    margin: 40px 0px 60px 125px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.globedata {
+    display: flex;
+}
+.globe {
+    margin-left: -2%;
+    z-index: -2;
+}
+.blackscreen {
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/4/49/A_black_image.jpg/640px-A_black_image.jpg);
+    z-index: -1;
+    margin-left: -3%;
+    width: 425px;
+    height: 600px;
+    color: white;
+}
+
+.imagecontent {
+    margin: 60px 50px;
+    font-size: 30px;
+}
+
+#climate {
+    margin-left: 50px;
+    font-size: 30px;
+}
+
+#sun {
+    padding-right: 10%;
+}
+
+#wind {
+    padding-right: 10%;
+}
+
+.climatenames {
+    margin-left: 45px;
+    opacity: 0.5;
+}
+
+.wind {
+    margin-left: 6.5%;
+}
+
+.compass{
+    margin-left: 27px;
+}
+
+.place {
+    margin-left: 50px;
+    margin-top: 80px;
+}
+
+#text {
+    opacity: 0.5;
+    font-size: 20px;
+}
+
+#text1 {
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+#loc {
+    opacity: 0.5;
+}
+
+.events {
+    display: flex;
+    margin-top: -3%;
+    color: white;
+}
+
+.experience {
+    background-image: url(https://discoverylandco.com/imager/images/11020/amazing-pool-2_fc98236fcd7afd38ca0fd181cf61bcb6.jpg);
+    width: 100vw;
+    height: 100vh;
+    background-size: cover;
+}
+
+.lifestyle {
+    background-image: url(https://discoverylandco.com/imager/images/729/lifestyle_slider_190716_095537_fc98236fcd7afd38ca0fd181cf61bcb6.jpg);
+    width: 100vw;
+    height: 100vh;
+    background-size: cover;
+}
+
+.wellness {
+    background-image: url(https://discoverylandco.com/imager/images/14860/Screen-Shot-2023-08-29-at-12.29.27-PM_fc98236fcd7afd38ca0fd181cf61bcb6.png);
+    width: 100vw;
+    height: 100vh;
+    background-size: cover;
+}
+
+.events p{
+    display: flex;
+    justify-content: center;
+    margin-top: 55%;
+    font-size: 40px;
+}
+
+.events i {
+    display: flex;
+    justify-content: center;
+    font-size: 60px;
+}
+
+.contact {
+    background-color: #161f1e;
+    width: 100vw;
+    height: auto;
+    color: white;
+}
+
+.logos {
+    padding: 125px 100px;
+    display: flex;
+}
+
+.git {
+    padding-left: 40%;
+    line-height: 250%;
+}
+
+.about {
+    padding-left: 15%;
+    line-height: 250%;
+}
+
+.careers {
+    padding-left: 3%;
+    line-height: 250%;
+}
+
+#connect {
+    opacity: 0.5;
+    font-size: 13px;
+}
+
+#re {
+    line-height: 500%;
+    opacity: 0.5;
+    font-size: 13px;
+}
+
+#remail {
+    line-height: 0%;
+}
+
+.last {
+    display: flex;
+    margin-left: 8%;
+    opacity: 0.8;
+    font-size: 15px;
+}
+
+#site {
+    margin-left: 58%;
+}
+

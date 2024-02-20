@@ -1,0 +1,126 @@
+*{
+    margin: 0;
+    padding: 0; 
+    box-sizing: border-box;
+    
+   
+}
+/* body{
+    background-color: black;
+} */
+#blackcolour{
+    background-color: black;
+}
+body nav img{
+    /* display: flex;
+    flex-direction: column; */
+    width: 230px;
+    height: 7.5vh;
+}
+
+
+nav{
+    width:100%;
+    position: absolute;
+ 
+    padding: 20px 8%;
+    display: flex;
+    align-items: center;
+    justify-content:space-between ;
+}
+
+
+nav ul li{
+        
+        display: inline-block; 
+        margin-left: 40px; 
+}  
+nav ul li a{
+ 
+    color: #fff;
+    font-size:17px ;
+
+} 
+
+#secondpart{
+    height: 1200px;
+    /* border: 3px solid red; */
+    margin-top: 70px;
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+.oneimage{
+    /* border: 2px solid blue; */
+    height: 265px;
+    width: 24%;
+     margin-right: 8px;
+    margin-left: 5px; 
+    color: #fff;
+    
+}
+#smallfont{
+    color: lightslategrey;}
+
+.contact {
+        background-color: #161f1e;
+        width: 100vw;
+        height: auto;
+        color: white;
+}
+    
+.logos {
+        padding: 125px 100px;
+        display: flex;
+}
+    
+.git {
+        padding-left: 40%;
+        line-height: 250%;}
+    
+.about {
+        padding-left: 15%;
+        line-height: 250%;}
+    
+.careers {
+        padding-left: 3%;
+        line-height: 250%;
+}
+    
+    #connect {
+        opacity: 0.5;
+        font-size: 13px;
+    }
+    
+    #re {
+        line-height: 500%;
+        opacity: 0.5;
+        font-size: 13px;
+    }
+    
+    #remail {
+        line-height: 0%;
+    }
+    
+    .last {
+        display: flex;
+        margin-left: 8%;
+        opacity: 0.8;
+        font-size: 15px;
+    }
+    
+    #site {
+        margin-left: 58%;
+    }
+    
+    
+
+
+
+
+
+
+
+
+
+    
